@@ -12,8 +12,8 @@ RNAScope spots are identified using a Laplacian of Gaussian[2] filter (LoG) foll
 In summary, annotated regions are imported from QuPath into ImageJ[3] and run through a median filter (radius=1.5 px) 
 in order to remove Poisson noise.
 The diffraction-limited spots are then enhanced using a LoG filter (sigma=1.0 px). The resulting image is run through 
-ImageJ's local maximum finder algorithm with a channel-dependent tolerance value[4]. 
-The local maxima points are then reimported into QuPath for each channel.
+ImageJ's local maximum finder algorithm with a user-selected channel-dependent tolerance value[4]. 
+The local maxima points are then reimported as spots into QuPath for each channel.
 
 #REFERENCES
 
@@ -29,8 +29,8 @@ Higher prominence values will find fewer spots, as it represents how much of a d
 local background. 
 
 # OUTPUTS
-After running the code, mRNA spots will be shown Points, in the color of the channel.
-Two new measurements "RNAScope CHANNEL Spots" and RNASctop CHANNEL Density are also appended to each annotation
+After running the code, mRNA spots will be shown as Points, in the same color as the channel.
+Two new measurements `RNAScope CHANNEL Spots` and `RNASctop CHANNEL Density` are also appended to each annotation.
 
 # DEPENDENCIES
 This script makes use of the ImageScience library at https://imagescience.org/meijering/software/imagescience/
