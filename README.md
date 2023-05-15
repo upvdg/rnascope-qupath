@@ -36,7 +36,7 @@ Two new measurements `RNAScope CHANNEL Spots` and `RNASctop CHANNEL Density` are
 # Dependencies
 This script makes use of the ImageScience library at https://imagescience.org/meijering/software/imagescience/
 
-# Installtion
+# Installation
 You must download 'imagescience.jar' and place it into your QuPath extensions directory before running this script. Alternatively, you can simply drag and drop the jar file into QuPath. 
 https://imagescience.org/meijering/software/imagescience/
 
