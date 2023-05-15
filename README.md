@@ -2,7 +2,7 @@
 Script to detect RNAScope Spots in QuPath.
 
 # Code Description
-This script will apply a Laplacian of Gaussian filtered followed by a local maxima detector in order to locate 
+This script will apply a Laplacian of Gaussian filter followed by a local maxima detector in order to locate 
 RNAScope spots in fluorescent images. The script works with an arbitrary number of channels, provided as a list.
 It is intended to run in QuPath[1] 0.4.3 or later. 
 
@@ -31,7 +31,7 @@ local background.
 
 # Outputs
 After running the code, mRNA spots will be shown as Points, in the same color as the channel.
-Two new measurements `RNAScope CHANNEL Spots` and `RNASctop CHANNEL Density` are also appended to each annotation.
+Two new measurements `RNAScope CHANNEL Spots` and `RNAScope CHANNEL Density` are also appended to each annotation.
 
 # Dependencies
 This script makes use of the ImageScience library at https://imagescience.org/meijering/software/imagescience/
