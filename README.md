@@ -15,12 +15,13 @@ The diffraction-limited spots are then enhanced using a LoG filter (sigma=1.0 px
 ImageJ's local maximum finder algorithm with a user-selected channel-dependent tolerance value[4]. 
 The local maxima points are then reimported as spots into QuPath for each channel.
 
-#REFERENCES
+# REFERENCES
 
-[1] [Bankhead, P. et al. QuPath: Open source software for digital pathology image analysis. Scientific Reports (2017)](https://doi.org/10.1038/s41598-017-17204-5). doi:10.1038/s41598-017-17204-5
-[2] https://imagescience.org/meijering/software/featurej/laplacian/
-[3] [Schneider, C. A., Rasband, W. S., & Eliceiri, K. W. (2012). NIH Image to ImageJ: 25 years of image analysis](doi.org/10.1038/nmeth.2089). Nature Methods, 9(7), 671–675. doi:10.1038/nmeth.2089
-[4] https://github.com/imagej/ImageJ/blob/master/ij/plugin/filter/MaximumFinder.java
+1. [Bankhead, P. et al. QuPath: Open source software for digital pathology image analysis. Scientific Reports (2017)](https://doi.org/10.1038/s41598-017-17204-5). doi:10.1038/s41598-017-17204-5
+2. https://imagescience.org/meijering/software/featurej/laplacian/
+3. [Schneider, C. A., Rasband, W. S., & Eliceiri, K. W. (2012). NIH Image to ImageJ: 25 years of image analysis](doi.org/10.1038/nmeth.2089). Nature Methods, 9(7), 671–675. doi:10.1038/nmeth.2089
+4. https://github.com/imagej/ImageJ/blob/master/ij/plugin/filter/MaximumFinder.java
+
 
 # INPUTS
 A single or multichannel fluorescence image with annotations. This script will run on all annotations
